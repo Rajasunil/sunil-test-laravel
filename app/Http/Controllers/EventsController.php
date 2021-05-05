@@ -198,6 +198,9 @@ class EventsController extends BaseController
     }
 
 
+
+
+    
     public function getEvents()
     {
         $events = Event::get();
