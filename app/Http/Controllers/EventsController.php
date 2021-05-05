@@ -197,10 +197,6 @@ class EventsController extends BaseController
         return response()->json($events);
     }
 
-
-
-
-    
     public function getEvents()
     {
         $events = Event::get();
